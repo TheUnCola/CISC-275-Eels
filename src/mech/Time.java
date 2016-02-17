@@ -7,4 +7,5 @@ public class Time {
 	public Time(int tr) {
 		this.tic_rate = tr;
 	}
+	test
 }
