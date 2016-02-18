@@ -27,14 +27,14 @@ public class ASCIIGameTemplate {
     public static void main(String[] args) throws IOException {
         Character mask = null;
         String trigger = null;
-	game = new ASCIIScreen();
+        game = new ASCIIScreen();
 	
         ConsoleReader reader = new ConsoleReader(System.in, new PrintWriter(System.out));
 
 	char[] allowed = {'i','j','k','l','q'};
 
 	game.init();
-	
+	 
 	try {
 	    int i = 0;
 	    while(i != (int)'q') {
